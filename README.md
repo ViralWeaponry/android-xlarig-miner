@@ -12,6 +12,16 @@ chmod +x 1.sh
 
 ./1.sh
 
+cd ..
+
+cd ubuntu-in-termux
+
+chmod +x ubuntu.sh
+
+./ubuntu.sh
+
+./startubuntu.sh
+
 In Ubuntu
 
 apt update
