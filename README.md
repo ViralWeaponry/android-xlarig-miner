@@ -35,3 +35,15 @@ cd android-xlarig-miner
 chmod +x 2.sh
 
 ./2.sh
+
+===============================================================================================================================================
+
+Once installed and to simplify running the script I use the following to create a tiny script (scala.sh) that will have the code to start the miner, replace WALLET_ADDRESS with your scala address and MINER_NAME with your miner name. In the end all you have to do is type "./scala.sh" to start mining.
+
+echo /xlarig/build/xlarig -o mine.scalaproject.io:5555 -p MINER_NAME -u WALLET_ADDRESS --donate-level 0 -a panthera -k > scala.sh
+
+chmod +x scala.sh
+
+./scala.sh
+
+
